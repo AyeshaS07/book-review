@@ -1,0 +1,68 @@
+body{
+  background: linear-gradient(to right,#a18cd1,#fbc2eb);
+  font-family: Arial;
+}
+
+.container{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, textarea{
+  width: 90%;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+button{
+  padding:10px 20px;
+  background:#6c5ce7;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#4834d4;
+}
+
+.card{
+  background:#f1f2f6;
+  padding:15px;
+  margin-top:15px;
+  border-radius:8px;
+}
+
+/* ⭐ Star Rating Style */
+
+.stars{
+  margin:10px;
+}
+
+.star{
+  font-size:28px;
+  cursor:pointer;
+  color:lightgray;
+  margin:3px;
+  transition:0.2s;
+}
+
+.star:hover{
+  transform:scale(1.2);
+}
+
+.filled{
+  color:gold;
+}
+
+.reviewStars{
+  font-size:20px;
+  color:gold;
+}
